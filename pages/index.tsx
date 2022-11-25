@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      For the test
+      For the deployment test
     </div>
   )
 }
