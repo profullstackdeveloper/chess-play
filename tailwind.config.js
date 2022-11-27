@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       'backgroundImage': {
-        main: 'url("/assets/images/authenticate page.png")'
+        main: 'url("/assets/images/background.png")'
       },
       colors: {
         lightBlack: '#717171',
         blue2: '#438FFE',
-        buttonBorder: '#848484'
+        buttonBorder: '#848484',
+        'header-underline': '#EBEBEB'
       }
     },
   },

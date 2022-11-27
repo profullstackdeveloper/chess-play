@@ -1,11 +1,14 @@
 import type { AppProps } from 'next/app'
 import Web3ContextProvider from '../context/Web3Context'
+import Layout from '../components/layout/Layout'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Web3ContextProvider>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </Web3ContextProvider>
   )
 }
