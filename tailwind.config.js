@@ -6,6 +6,9 @@ module.exports = {
     './components/**/*.{ts,tsx}'
   ],
   theme: {
+    fontFamily: {
+      'gilroy': ['Gilroy'],
+    },
     extend: {
       'backgroundImage': {
         main: 'url("/assets/images/background.png")'
@@ -19,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
